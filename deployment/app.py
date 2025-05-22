@@ -18,6 +18,7 @@ st.write("Predict whether a customer is likely to churn based on their profile."
 # ---------------- Load Model & Features ---------------- #
 model = load_model(os.path.join("models", "CatBoost.pkl"))
 feature_list = load_features("../config/config.yaml")
+
 # ---------------- Sidebar Option ---------------- #
 option = st.sidebar.radio("Choose Prediction Method:", ["Upload CSV", "Manual Input"])
 
