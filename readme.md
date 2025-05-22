@@ -56,6 +56,8 @@ Place raw file inside: data/raw/
 Built with ❤️ by Sanjay as part of his ML learning journey.
 Guided by best practices in production machine learning, modularity, and deployment.
 
+#Live Demo: https://churn-ml-data-to-docker-kvrk8rh44zucasc3vcmx6n.streamlit.app
+
  #Status
 •	Completed
 •	Ready to deploy
