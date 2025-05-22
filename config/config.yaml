@@ -1,0 +1,14 @@
+selected_features:
+- tenure
+- MonthlyCharges
+- TotalCharges
+- TotalSpending
+- Contract_Two year
+- InternetService_Fiber optic
+- OnlineSecurity_No
+- TechSupport_No
+- PaymentMethod_Electronic check
+- SeniorCitizen
+- Dependents_No
+- PaperlessBilling_No
+- Contract_Month-to-month
