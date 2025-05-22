@@ -4,17 +4,6 @@ An end-to-end, production-ready machine learning project to predict customer chu
 #Project Overview
 This project aims to predict whether a customer will churn ("Yes") or stay ("No") using machine learning. It leverages the Telco Customer Churn dataset and follows FAANG-level MLOps standards.
 
-#Project Structure
-churn_prediction/
-├── data/                  # Raw and processed datasets
-├── notebooks/             # EDA, Feature Engineering, Model Training
-├── src/                   # Core logic for preprocessing, training, predicting
-├── models/                # Saved models (CatBoost, RF, etc.)
-├── outputs/               # Prediction results and reports
-├── deployment/            # Streamlit app + Docker
-├── config/                # config.yaml with feature list
-├── tests/                 # Unit test for pipeline
-└── README.md              # You are here
 
 #Key Features
 •	Cleaned & engineered data: Manual + automated feature selection
