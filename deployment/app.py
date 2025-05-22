@@ -34,7 +34,8 @@ if option == "Upload CSV":
         - No target column `Churn` required.
         - Refer to the [sample CSV here](https://your-link-to-sample.com) or download this sample below.
         """)
-        with open("../data/sample_churn_data.csv", "rb") as file:
+        data_path = os.path.join("..", "data", "sample_churn_data.csv")
+        with open(data_path, "rb") as file:
             st.download_button("Download Sample CSV", file, file_name="sample_churn_data.csv")
 
     uploaded_file = st.file_uploader("Upload CSV file for batch prediction", type="csv")
